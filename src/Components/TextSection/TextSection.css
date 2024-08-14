@@ -1,0 +1,76 @@
+#RootTextContainer {
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    height: 80%;
+    padding: 26px;
+    box-sizing: border-box;
+    border-radius: 0 10px 10px 0;
+}
+
+#TextContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+span {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+}
+
+p {
+    line-height: 25px;
+}
+
+h1,
+ul li {
+    font-family: "Fraunces", serif;
+}
+
+span,
+p,
+ul li {
+    color: hsl(228, 12%, 48%);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+ul #CustomLiStyle {
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+#btn {
+    background: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    #RootTextContainer {
+        width: 100%;
+        height: 50%;
+        border-radius: 0 0 20px 20px;
+    }
+
+}
