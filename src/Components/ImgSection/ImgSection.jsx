@@ -1,6 +1,6 @@
 import "../ImgSection/ImgSection.css";
 import ImgContainerDesktop from "/assets/Images/ImgContainerDesktop";
-import ImgContainerMobile from "/assets/Images/ImgContainerMobile";";
+import ImgContainerMobile from "/assets/Images/ImgContainerMobile";
 
 function ImageContainer() {
   return (
